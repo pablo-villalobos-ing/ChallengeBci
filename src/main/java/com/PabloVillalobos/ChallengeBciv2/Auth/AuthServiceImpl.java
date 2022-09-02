@@ -73,9 +73,7 @@ public class AuthServiceImpl implements AuthService {
 	}
 	
 	@Override
-	public LoggedUserDto login(String token) throws Exception {
-		logger.info(token);
-		logger.info(jwtProvider.validate(token));
+	public LoggedUserDto login(String token) throws Exception {	
 		if (jwtProvider.validate(token)) {
 			String idUserToken = jwtProvider.getUserIdFromToken(token);
 			Optional<UserEntity> exist= userRepository.findById(idUserToken);
