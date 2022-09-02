@@ -28,7 +28,7 @@ public class AuthController {
 	private AuthService authService;
 	
 	
-	@PostMapping("/signup")
+	@PostMapping("/sign-up")
 	public UserDto singUp(@Validated @RequestBody SignUpDto signUpDto) throws Exception {	
 		return authService.createUser(signUpDto);		
 		}
