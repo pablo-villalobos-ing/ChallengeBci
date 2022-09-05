@@ -13,10 +13,8 @@ import org.springframework.stereotype.Component;
 
 import com.PabloVillalobos.ChallengeBciv2.User.UserEntity;
 
-import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import io.jsonwebtoken.impl.DefaultClaims;
 
 
 

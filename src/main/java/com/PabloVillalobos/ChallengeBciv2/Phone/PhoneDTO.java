@@ -1,9 +1,6 @@
 package com.PabloVillalobos.ChallengeBciv2.Phone;
 
 import java.util.Objects;
-import java.util.UUID;
-
-import javax.persistence.Column;
 
 public class PhoneDTO {
 	

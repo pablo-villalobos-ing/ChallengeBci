@@ -19,7 +19,6 @@ import com.PabloVillalobos.ChallengeBciv2.User.UserDto;
 import com.PabloVillalobos.ChallengeBciv2.User.UserEntity;
 import com.PabloVillalobos.ChallengeBciv2.User.UserRepository;
 import com.PabloVillalobos.ChallengeBciv2.jwt.JwtProvider;
-import com.PabloVillalobos.ChallengeBciv2.jwt.TokenDto;
 
 
 

@@ -2,11 +2,7 @@ package com.PabloVillalobos.ChallengeBciv2.User;
 
 import java.util.Date;
 import java.util.Objects;
-import java.util.UUID;
 
-import javax.persistence.Column;
-
-import org.springframework.data.annotation.CreatedDate;
 
 public class UserDto {
 	
