@@ -16,6 +16,8 @@ Challenge para vacante Java Dev
 - mysql connector
 - starter-test
 - spring-security-test
+- groovy
+- spock
 
 
 ## _Instalación_
@@ -49,7 +51,7 @@ microservicio que contiene 2 rutas endpoint, para crear un usuario en base al co
     - HashMap.
     - Stream().Map().
     - list<>.forEarch(predicate).
-- Pruebas unitarias (pendientes de subir a repo).
+- Pruebas unitarias kit basico de pruebas. clase jwt y authservice.
 - Validación contrato de entrada sing-up campos correo y clave.
 - Persistencia en base de datos con clave encriptada.
 - "Exception" devueltas en objeto Json.
